@@ -1,0 +1,12 @@
+This is a small collection of differential operators from applications for use
+with the ore_algebra[1] SageMath[2] package. This collection complements the
+examples built into ore_algebra with operators that are too large to be
+included there, too specialized, redundant with existing examples, etc.
+
+To the extent possible under law, the contributors have waived all copyright and
+related or neighboring rights to the contents of this repository.
+
+Contributions are welcome. Please follow the general format of existing files.
+
+[1] https://github.com/mkauers/ore_algebra
+[2] https://www.sagemath.org/
