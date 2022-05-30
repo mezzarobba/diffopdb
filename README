@@ -3,6 +3,10 @@ with the ore_algebra[1] SageMath[2] package. This collection complements the
 examples built into ore_algebra with operators that are too large to be
 included there, too specialized, redundant with existing examples, etc.
 
+None of the contents is stable: data may be removed, modules renamed, etc. from
+version to version. If you use this repository in your own work, consider
+pinning to a specific git revision.
+
 To the extent possible under law, the contributors have waived all copyright and
 related or neighboring rights to the contents of this repository.
 
