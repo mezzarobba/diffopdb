@@ -1,9 +1,14 @@
 r"""
-Source: Pierre Lairez
+A large Picard-Fuchs equation
+
+(Definition and source to be confirmed:) The Picard-Fuchs equation describing
+the deformation of the Fermat quartic `F = x^4 + y^4 + z^4 + w^4` into the
+quartic `Q` from arXiv:1703.01660v2, Example 6.1, via `f = (1-t)*F + t*Q`.
+Source: Emre Sertöz via Pierre Lairez.
 
 EXAMPLES::
 
-    sage: from lairez_large_picard_fuchs_1 import dop
+    sage: from large_picard_fuchs import dop
     sage: dop.order(), dop.degree()
     (10, 318)
 """
