@@ -10,7 +10,11 @@ pinning to a specific git revision.
 To the extent possible under law, the contributors have waived all copyright and
 related or neighboring rights to the contents of this repository.
 
-Contributions are welcome. Please follow the general format of existing files.
+Contributions are welcome. Please follow the general format of existing files
+(pure Python modules, 80 char lines or whatever the length of integer
+coefficients allows, at least some information on the origin of the problems and
+1-2 relevant usage examples in the module docstring, ideally include
+problem-specific utility functions when relevant).
 
 [1] https://github.com/mkauers/ore_algebra
 [2] https://www.sagemath.org/
