@@ -1,4 +1,4 @@
-This is a small collection of differential operators from applications for use
+This is a collection of differential operators from applications for use
 with the ore_algebra[1] SageMath[2] package. This collection complements the
 examples built into ore_algebra with operators that are too large to be
 included there, too specialized, redundant with existing examples, etc.
@@ -10,11 +10,15 @@ pinning to a specific git revision.
 To the extent possible under law, the contributors have waived all copyright and
 related or neighboring rights to the contents of this repository.
 
-Contributions are welcome. Please follow the general format of existing files
-(pure Python modules, 80 char lines or whatever the length of integer
-coefficients allows, at least some information on the origin of the problems and
-1-2 relevant usage examples in the module docstring, ideally include
-problem-specific utility functions when relevant).
+Contributions are welcome. All data should be accessible through Python modules.
+Please include some information on the origin of the problems and 1-2 usage
+examples in the module docstring. There is no fixed format or indexing scheme at
+this stage, but please try to be consistent with existing modules when possible
+(e.g., prefer coefficients in ℤ[t] to coefficients in ℚ[t] or ℚ(t), prefer pure
+python modules to sage source files, use git-annex[3] for large files). Modules
+may also contain problem-specific utility functions.
+
 
 [1] https://github.com/mkauers/ore_algebra
 [2] https://www.sagemath.org/
+[3] https://git-annex.branchable.com/
