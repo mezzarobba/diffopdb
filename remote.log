@@ -1,1 +1,2 @@
 b4a8c591-1bdf-4d6c-ba3b-130975b7b897 encryption=none name=lfs type=git-lfs url=git@github.com:mezzarobba/diffopdb.lfs.git timestamp=1730989794s
+f6052652-343c-4a60-a971-a1e1fc1cf1c5 sameas-name=lfs-http sameas-uuid=b4a8c591-1bdf-4d6c-ba3b-130975b7b897 type=git-lfs url=https://github.com/mezzarobba/diffopdb.lfs.git timestamp=1730989845s
